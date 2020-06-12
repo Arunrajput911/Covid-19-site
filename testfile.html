@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- js links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: rgb(204, 243, 245);">
+      <div class="quiz-div">
+      <p>
+          <b>Q.  Are you experiencing any of the following symptoms?</b></p>
+        <ul>
+            <li><input type="radio" name="a">  cough & fever</li>
+            <li><input type="radio" name="a">  Difficulty in breathing</li>
+            <li><input id="a" type="radio" value="safe" name="a">  None of above</li>
+        </ul>
+        <p>
+            <b>Q.  Have you ever had any of the following:</b></p>
+          <ul>
+              <li><input type="radio" name="b">  Diabetes & hypertension</li>
+              <li><input type="radio" name="b">  Lung disease</li>
+              <li><input id="b" type="radio" value="safe" name="b">  None of above</li>
+          </ul>
+          <p>
+            <b>Q.  which of the following passion apply on you?</b></p>
+          <ul>
+              <li><input type="radio" name="d">  Doctors</li>
+              <li><input type="radio" name="d">  police officer</li>
+              <li><input id="d" type="radio" value="safe" name="d">  None of above</li>
+          </ul>
+          <p>
+            <b>Q.  Have you traveled anywhere nationally in the last 2 months?</b></p>
+          <ul>
+              <li><input type="radio" name="c">  Yes</li>
+              <li><input id="c" type="radio" value="safe" name="c">  No</li>
+          </ul>
+         
+          <p>
+            <b>Q.  Do you have a corona patient around you?</b></p>
+          <ul>
+              <li><input type="radio" name="e">  Yes</li>
+              <li><input id="e" type="radio" value="safe" name="e">  No</li>
+             
+          </ul>
+      </div>
+      <div class="submit-btn">
+        <button type="button" onclick="f1()" id="button1" class="btn btn-primary">Submit</button>
+        
+      </div>
+      <div class="safe-div">
+           <p><i class="fal fa-stethoscope"></i>  <b>YOU ARE SAFE</b></p>
+           <p><b>congratulations!!!!!<br>
+            stay home and stay safe</b></p>
+      </div>
+      <div class="danger-div">
+        <p><i class="fal fa-exclamation-circle"></i>  <b>Oops! you are in danger</b></p>
+        <p><b>
+         stay in quarantine and protect your family</b></p>
+   </div>
+   <div class="back-btn">
+    <a href="index.html" ><button type="button" id="button2" class="btn btn-primary">Back</button></a>
+   </div>
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+          alert("PLEASE GIVES CORRECT ANSWER ");
+         function f1(){
+          var a,b,c,d,e;
+          a=document.getElementById("a");
+          b=document.getElementById("b");
+          c=document.getElementById("c");
+          d=document.getElementById("d");
+          e=document.getElementById("e");
+          
+        if(a.checked==true && b.checked==true && c.checked==true
+        && d.checked==true && e.checked==true){
+          alert("Please ensure that all questions are ticked otherwise result will be Positive");
+          $(".quiz-div").slideUp();
+          $(".safe-div").css("display","block");
+          $("#button1").css("visibility","hidden");
+          $("#button2").css("display","block");
+        }
+        else{
+          alert("Please ensure that all questions are ticked otherwise result will be Positive");
+          $(".quiz-div").slideUp();
+          $(".danger-div").css("display","block");
+          $("#button1").css("visibility","hidden");
+          $("#button2").css("display","block");
+        }
+         }
+          
+      </script>
+    </body>
+</html>
