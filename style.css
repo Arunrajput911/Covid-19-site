@@ -324,6 +324,151 @@ color:rgb(250, 123, 19);
     top:0px;
 }
 
+/* hover effect */
+
+a#title:hover{
+    font-size: 30px;
+}
+#btn-download:hover{
+    font-size: 25px;
+}
+h1#about:hover{
+    font-size: 50px;
+}
+p#about-covid:hover{
+    font-size: 1.25rem;
+}
+#btn-covid:hover{
+    font-size: 25px;
+}
+
+h1#covid:hover{
+    font-size: 50px;
+}
+h2#statewise:hover{
+    font-size: 40px;
+}
+h1#symptom:hover{
+    font-size: 50px;
+}
+h1#video:hover{
+    font-size: 50px;
+}
+#prevention:hover{
+    font-size: 35px;
+}
+#spread:hover{
+    font-size: 35px;
+}
+h3#card-header:hover{
+    font-size:30px;
+}
+a#btn1:hover{
+    font-size: 25px;
+}
+a#btn2:hover{
+    font-size: 25px;
+}
+h1#contact:hover{
+    font-size: 50px;
+}
+#icon1:hover{
+    font-size: 60px;
+}
+#icon2:hover{
+    font-size: 60px;
+}
+#icon3:hover{
+    font-size: 60px;
+}
+#btn-up:hover{
+    font-size: 30px;
+}
+p#mail:hover{
+    font-size:20px;
+}
+p#name:hover{
+    font-size:20px;
+}
+.container-second-text:hover{
+    height:160px;
+    width:260px;
+}
+.container-six img.video-img:hover{
+    width:230px;
+}
+@media screen and (max-width:500px){
+    a#title:hover{
+        font-size: 30px;
+    }
+    #btn-download:hover{
+        font-size: 20px;
+    }
+    h1#about:hover{
+        font-size: 45px;
+    }
+    p#about-covid:hover{
+        font-size: 1.0rem;
+    }
+    #btn-covid:hover{
+        font-size: 20px;
+    }
+    h1#covid:hover{
+        font-size:45px;
+    }
+    h2#statewise:hover{
+        font-size: 40px;
+    }
+    h1#symptom:hover{
+        font-size: 45px;
+    }
+    h1#video:hover{
+        font-size: 45px;
+    }
+    #prevention:hover{
+        font-size: 25px;
+    }
+    #spread:hover{
+        font-size: 25px;
+    }
+    h3#card-header:hover{
+        font-size:25px;
+    }
+    a#btn1:hover{
+        font-size: 20px;
+    }
+    a#btn2:hover{
+        font-size: 20px;
+    }
+    h1#contact:hover{
+        font-size: 45px;
+    }
+    #icon1:hover{
+        font-size: 50px;
+    }
+    #icon2:hover{
+        font-size: 50px;
+    }
+    #icon3:hover{
+        font-size: 50px;
+    }
+    #btn-up:hover{
+        font-size: 25px;
+    }
+    p#mail:hover{
+        font-size:20px;
+    }
+    p#name:hover{
+        font-size:20px;
+    }
+    .container-second-text:hover{
+        height:110px;
+        width:160px;
+    }
+    .container-six img.video-img:hover{
+        width:230px;
+    }
+}
 
 
 
