@@ -13,7 +13,7 @@
 .carousel-item img{
 height:750px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .carousel-item img{
         height:300px;
         }
@@ -35,7 +35,7 @@ height:750px;
     font-size: 1.2rem;
     padding:10px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .container-one{
         font-family: 'Sriracha', cursive;
         margin:10px;  
@@ -99,7 +99,7 @@ color:rgb(250, 123, 19);
             }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .container-second{
         font-family: 'Sriracha', cursive;
         margin:10px;
@@ -127,7 +127,6 @@ color:rgb(250, 123, 19);
 .container-third{
     font-family: 'Sriracha', cursive;
     margin:100px; 
-    padding:40px;
     text-align: center;  
     background-color:rgb(180, 244, 255) ;
     box-shadow: 8px 8px 10px grey;
@@ -148,11 +147,11 @@ color:rgb(250, 123, 19);
     left:400px;
     
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .container-third-content{
         width:300px;
         position:relative;
-        left:30px;
+        left:10px;
       
     } 
     .container-third{
@@ -184,7 +183,7 @@ color:rgb(250, 123, 19);
     box-shadow: 8px 8px 10px grey;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .container-four{
         font-family: 'Sriracha', cursive;
         margin:10px;
@@ -216,7 +215,7 @@ color:rgb(250, 123, 19);
     box-shadow: 8px 8px 10px grey;
 }
 
-@media screen and (max-width:600px){ 
+@media screen and (max-width:500px){ 
 .container-five{
     font-family: 'Sriracha', cursive;
     margin:10px;
@@ -266,7 +265,7 @@ color:rgb(250, 123, 19);
     text-align: center;
     
 }
-@media screen and(max-width:600px){
+@media screen and(max-width:500px){
     .container-six{
         margin:0px;
         font-family: 'Sriracha', cursive;
@@ -292,7 +291,7 @@ color:rgb(250, 123, 19);
     background-color: rgb(231, 239, 241);
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .container-seven{
         font-family: 'Sriracha', cursive;
         margin:10px;
