@@ -28,7 +28,7 @@
 
     <div class="container-fuild navbar-box" id="home">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#"><b>COVID-19</b></a>
+            <a id="title" class="navbar-brand" href="#"><b>COVID-19</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -106,7 +106,7 @@
 
 
      <div id="covid-19-update" class="container-second">
-               <h1>Covid-19 Dashboard <button type="button" class="btn btn-outline-primary">Refresh <i class="fas fa-sync"></i></button></h1><hr>
+               <h1 id="covid" >Covid-19 Dashboard <button id="btn-covid" type="button" class="btn btn-outline-primary">Refresh <i class="fas fa-sync"></i></button></h1><hr>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="container-second-text container-second-text-1">
@@ -140,7 +140,7 @@
 
 
 <div class="container-third">
-  <h2><marquee behavior="scroll">Statewise covid-19 status <button type="button" id="click-btn" class="btn btn-primary">Click here to minimize/maximise</button></marquee></h2>
+  <h2 id="statewise" ><marquee behavior="scroll">Statewise covid-19 status <button type="button" id="click-btn" class="btn btn-primary">Click here to minimize/maximise</button></marquee></h2>
   <div class="container-third-hide">
     <div class="container-third-content">
       <h2>
@@ -553,7 +553,7 @@
 
 <div class="container-four" id="symptom">  
     <div class="symptoms">
-        <h1>SYMPTOMS</h1><hr>
+        <h1 id="symptom">SYMPTOMS</h1><hr>
     <img class="symptoms-img" src="https://www.mygov.in/sites/all/themes/mygov/images/covid/symptoms.png" alt="" title="">
     </div>
 </div>
@@ -561,7 +561,7 @@
 
 
 <div class="container-six" id="video">
-  <h1>Videos</h1><hr>
+  <h1 id="video">Videos</h1><hr>
   <div class="container-six-content">
     <div class="row">
       <div class="b col-lg-4 col-md-4 col-sm-12">
@@ -591,13 +591,13 @@
   <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="spread">
-              <h3>HOW IT SPREADS</h3><hr>
+              <h3 id="spread">HOW IT SPREADS</h3><hr>
               <img class="prevention-img1"src="https://www.mygov.in/sites/all/themes/mygov/images/covid/block-one.png" alt="" title="">
           </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="prevention">
-              <h3>PREVENTION</h3><hr>
+              <h3 id="prevention">PREVENTION</h3><hr>
               <img class="prevention-img1" src="https://www.mygov.in/sites/all/themes/mygov/images/covid/block-two.png" alt="" title="">
              </div>
       </div>
@@ -605,12 +605,12 @@
 </div>
 <div class="container-seven">
   <div class="card ">
-    <h5 class="card-header" style="background-color: rgb(180, 244, 255);"><b>COVID-19 Testing Quiz</b></h5>
+    <h5 id="card-header" class="card-header" style="background-color: rgb(180, 244, 255);"><b>COVID-19 Testing Quiz</b></h5>
     <div class="card-body card-color">
       <h5 class="card-title"></h5>
       <p class="card-text">Accurate answer help us -help uou better. Medical and supportive staff are valuable and very limited. Be a responsible citizen.</p>
-      <a href="testfile.html" class="btn btn-danger">Click for test</a>
-      <a href="#covid-19-update" class="btn btn-danger">COVID Update</a>
+      <a id="btn1" href="testfile.html" class="btn btn-danger">Click for test</a>
+      <a id="btn2" href="#covid-19-update" class="btn btn-danger">COVID Update</a>
     </div>
   </div>
 </div>
@@ -618,19 +618,19 @@
   <div class="row">
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="bottom-content">
-        <h1>Contact</h1>
-        <i class="icon fab fa-facebook-square"></i>
-        <i class="icon fab fa-instagram"></i>
-        <i class="icon fas fa-envelope"></i>
-        <p><b>Email-
+        <h1 id="contact" >Contact</h1>
+        <i id="icon1" class="icon fab fa-facebook-square"></i>
+        <i id="icon2" class="icon fab fa-instagram"></i>
+        <i id="icon3" class="icon fas fa-envelope"></i>
+        <p id="mail"><b>Email-
           </b>Ar1445942@gmail.com</p>
       </div>
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="bottom-copyright">
         <p><i class="far fa-copyright"></i>Copyright 2020,COVID-19</p>
-        <p>Created and designed by- Arun Kumar Rajput</p>
-       <a href="#home"><button type="button" class="btn btn-primary arrowbtn"><i class="fas fa-arrow-up"></i></button></a> 
+        <p id="name" >Created and designed by- Arun Kumar Rajput</p>
+       <a href="#home"><button id="btn-up" type="button" class="btn btn-primary arrowbtn"><i class="fas fa-arrow-up"></i></button></a> 
       </div> 
     </div>
   </div>
