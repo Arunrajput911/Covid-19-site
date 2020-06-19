@@ -103,7 +103,7 @@ color:rgb(250, 123, 19);
     .container-second{
         font-family: 'Sriracha', cursive;
         margin:10px;
-       
+       padding:20px;
         margin-bottom:50px;
         background-color: rgb(180, 244, 255);
         box-shadow: 8px 8px 10px grey;
@@ -113,7 +113,7 @@ color:rgb(250, 123, 19);
         margin-top:0px;
         width:150px;
         position:relative;
-        left:100px;  
+        left:80px;  
         font-size:small;
         top:0px;
        
@@ -425,7 +425,7 @@ p#name:hover{
         font-size: 45px;
     }
     p#about-covid:hover{
-        font-size: 1.0rem;
+        font-size: 1.1rem;
     }
     #btn-covid:hover{
         font-size: 20px;
@@ -443,13 +443,13 @@ p#name:hover{
         font-size: 45px;
     }
     #prevention:hover{
-        font-size: 25px;
+        font-size: 28px;
     }
     #spread:hover{
-        font-size: 25px;
+        font-size: 28px;
     }
     h3#card-header:hover{
-        font-size:25px;
+        font-size:28px;
     }
     a#btn1:hover{
         font-size: 20px;
@@ -461,13 +461,13 @@ p#name:hover{
         font-size: 45px;
     }
     #icon1:hover{
-        font-size: 50px;
+        font-size: 55px;
     }
     #icon2:hover{
-        font-size: 50px;
+        font-size: 55px;
     }
     #icon3:hover{
-        font-size: 50px;
+        font-size: 55px;
     }
     #btn-up:hover{
         font-size: 25px;
