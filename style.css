@@ -148,9 +148,12 @@ table tr td{
 .container-third table tr{
         padding:50px;
     }
+.container-third table th{
+       font-size:25px;
+    }
 .container-third table{
     border-collapse: collapse;
-     margin-left:200px;
+     margin-left:150px;
   background-color:rgb(146, 141, 141);
 }
 .container-third-content{
@@ -164,6 +167,7 @@ table tr td{
     .container-third-content{
         width:300px;
         position:relative;
+        text-align:center;
         left:10px;
       
     } 
