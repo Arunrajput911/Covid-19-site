@@ -153,14 +153,14 @@ table tr td{
     }
 .container-third table{
     border-collapse: collapse;
-     margin-left:150px;
+     margin-left:20px;
   background-color:rgb(146, 141, 141);
 }
 .container-third-content{
     width:600px;
     position:relative;
     text-align: center;
-    left:400px;
+    left:350px;
     
 }
 @media screen and (max-width:500px){
@@ -187,6 +187,9 @@ table tr td{
     }
     .container-third table tr{
         padding:10px;
+    }
+    .container-third table th{
+       font-size:15px;
     }
     .container-third-hide{
         display:none;
