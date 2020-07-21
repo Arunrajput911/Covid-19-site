@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-19</title>
+    <!-- title icon link-->
+      <link rel="icon" href="corona.jpg">
 <!--font link-->
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
 
     <!-- css link -->
@@ -28,7 +31,7 @@
 
     <div class="container-fuild navbar-box" id="home">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a id="title" class="navbar-brand" href="#"><b>COVID-19</b></a>
+            <a id="title"class="navbar-brand" href="#"><b>COVID-19</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,7 +88,7 @@
               </h1>
               <div class="row">
                   <div class="col-lg-6 col-md-12">
-                    <img class="container-one-img" class="first-img"src="corona.jpg">
+                    <img id="about-img" class="container-one-img" class="first-img"src="corona.jpg">
                   </div>
                   <div class="col-lg-6 col-md-12">
                     <p id="about-covid">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
@@ -106,12 +109,12 @@
 
 
      <div id="covid-19-update" class="container-second">
-               <h1 id="covid" >Covid-19 Dashboard <button id="btn-covid" onclick="Refresh()" type="button" class="btn btn-outline-primary">Refresh <i class="fas fa-sync"></i></button></h1><hr>
+               <h1 id="covid">Covid-19 Dashboard <button id="btn-covid" type="button" onclick="Refresh()" class="btn btn-outline-primary">Refresh <i class="fas fa-sync"></i></button></h1><hr>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="container-second-text container-second-text-1">
                         <table>
-                            <h2>Total Case</h2><hr>
+                            <h2>Active Case</h2><hr>
                             <tr id="active">
                                 
                             </tr>
@@ -122,7 +125,7 @@
                     <table>
                        <h2>Discharged</h2><hr>
                         <tr id="recover">
-                           
+                 
                         </tr>
                     </table>
                 </div></div>
@@ -130,7 +133,7 @@
                     <table>
                         <h2>Deaths</h2><hr>
                         <tr id="death">
-                           
+                            
                         </tr>
                     </table>
                 </div></div>
@@ -140,18 +143,18 @@
 
 
 <div class="container-third">
-  <h2 id="statewise" ><marquee behavior="scroll">Statewise covid-19 status <button type="button" id="click-btn" class="btn btn-primary">Click here to minimize/maximise</button></marquee></h2>
+  <h2 id="statewise"><marquee behavior="scroll">Statewise covid-19 status <button  type="button" id="click-btn" class="btn btn-primary">Click here to minimize/maximise</button></marquee></h2>
   <div class="container-third-hide">
     <div class="container-third-content">
       <h2>
           Andhra pradesh
       </h2>
       
-        <table>
+        <table style="width:250px">
             <tr><th>Active</th>
             <th>Discharged</th><th>Deaths</th></tr>
             <tr id="state0">
-                
+               
             </tr>
         </table>
       
@@ -160,24 +163,24 @@
        Arunachal Pradesh 
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active</th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state1">
               
           </tr>
       </table>
-   
+    
 
     <h2>
        Assam
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active</th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state2">
-             
+              
           </tr>
       </table>
     
@@ -186,7 +189,7 @@
         Bihar
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active</th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state3">
@@ -199,20 +202,20 @@
        Chhattisgarh
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active</th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state4">
               
           </tr>
       </table>
-   
+    
 
     <h2>
        Goa
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active</th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state5">
@@ -225,7 +228,7 @@
        Gujrat
     </h2>
     
-      <table>
+      <table style="width:250px">
           <tr><th>Active </th>
           <th>Discharged</th><th>Deaths</th></tr>
           <tr id="state6">
@@ -236,12 +239,12 @@
 
     <h2>Haryana
      </h2>
-    
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state7">
-               
+              
            </tr>
        </table>
     
@@ -250,24 +253,24 @@
        Himachal Pradesh
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state8">
-              
+               
            </tr>
        </table>
-     
+    
 
      <h2>
         Jharkhand
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state9">
-               
+              
            </tr>
        </table>
      
@@ -275,23 +278,23 @@
        Karnataka
      </h2>
     
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state10">
                
            </tr>
        </table>
-   
+     
      <h2>
         Kerala
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state11">
-               
+              
            </tr>
        </table>
      
@@ -299,11 +302,11 @@
        Madhya Pradesh
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state12">
-               
+              
            </tr>
        </table>
      
@@ -311,23 +314,23 @@
         Maharashtra
      </h2>
     
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state13">
                
            </tr>
        </table>
-     
+    
      <h2>
         Manipur
      </h2>
-     
-       <table>
+    
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
            <tr id="state14">
-               
+              
            </tr>
        </table>
      
@@ -335,11 +338,11 @@
        Meghalaya
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr id="state15">
-              
+           <tr id="state15"> 
+               
            </tr>
        </table>
      
@@ -347,35 +350,35 @@
        Mizoram
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state16">
+           <tr id="state16">
                
            </tr>
        </table>
-    
+     
      <h2>
         Nagaland
      </h2>
     
-       <table>
+       <table style="width:250px">
            <tr><th>Active </th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state17">
-              
+           <tr id="state17">
+               
            </tr>
        </table>
     
      <h2>
         Odisha
      </h2>
-    
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
-           <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state18">
-             
+           <th>Recovered Case</th><th>Deaths</th></tr>
+           <tr id="state18">
+              
            </tr>
        </table>
      
@@ -383,132 +386,132 @@
         Punjab
      </h2>
      
-       <table>
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state19">
-              
+           <tr id="state19">
+               
            </tr>
        </table>
-    
+     
      <h2>
         Rajastan
      </h2>
     
-       <table>
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state20">
-               
+           <tr id="state20">
+                
            </tr>
        </table>
-   
+     
      <h2>
         sikkim
      </h2>
-    
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state21">
-            
+           <tr id="state21">
+               
            </tr>
        </table>
-   
+     
 
      <h2>
        Tamil Nadu
      </h2>
-   
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state22">
-              
+           <tr id="state22">
+               
            </tr>
        </table>
-    
+     
      <h2>
        Telangana
      </h2>
-     
-       <table>
+    
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state23">
-              
+           <tr id="state23">
+               
            </tr>
        </table>
-    
+     
      <h2>
         Tripura
      </h2>
-     
-       <table>
+    
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state24">
-              
+           <tr id="state24">
+               
            </tr>
        </table>
-    
+     
      <h2>
        Uttar Pradesh
      </h2>
-   
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state25">
-              
+           <tr id="state25">
+               
            </tr>
        </table>
-    
+     
      <h2>
         Uttarakhand
      </h2>
     
-       <table>
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state26">
+           <tr id="state26">
                
            </tr>
        </table>
-    
+   
      <h2>
        West Bengal
      </h2>
-    
-       <table>
+     
+       <table style="width:250px">
            <tr><th>Active</th>
            <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state27">
-              
+           <tr id="state27">
+               
            </tr>
        </table>
-        <h2>
+       <h2>
        Delhi
-     </h2>
-    
-       <table>
-           <tr><th>Active</th>
-           <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state28">
-              
-           </tr>
-       </table>
+      </h2>
+      
+        <table style="width:250px">
+            <tr><th>Active</th>
+            <th>Discharged</th><th>Deaths</th></tr>
+            <tr id="state28">
+                
+            </tr>
+        </table>
         <h2>
-       Jammu & Kashmir
-     </h2>
-    
-       <table>
-           <tr><th>Active</th>
-           <th>Discharged</th><th>Deaths</th></tr>
-           <tr  id="state29">
-              
-           </tr>
-       </table>
+          Jammu & Kashmir
+         </h2>
+         
+           <table style="width:250px">
+               <tr><th>Active</th>
+               <th>Discharged</th><th>Deaths</th></tr>
+               <tr id="state29">
+                   
+               </tr>
+           </table>
      
      
 </div>
@@ -527,7 +530,7 @@
 
 
 <div class="container-six" id="video">
-  <h1 id="video">Videos</h1><hr>
+  <h1 id="video">VIDEOS</h1><hr>
   <div class="container-six-content">
     <div class="row">
       <div class="b col-lg-4 col-md-4 col-sm-12">
@@ -571,7 +574,7 @@
 </div>
 <div class="container-seven">
   <div class="card ">
-    <h3 id="card-header" class="card-header" style="background-color: rgb(180, 244, 255);"><b>COVID-19 Testing Quiz</b></h3>
+    <h3 id="card-header"  class="card-header" style="background-color: rgb(180, 244, 255);"><b>COVID-19 Testing Quiz</b></h3>
     <div class="card-body card-color">
       <h5 class="card-title"></h5>
       <p class="card-text">Accurate answer help us -help uou better. Medical and supportive staff are valuable and very limited. Be a responsible citizen.</p>
@@ -584,18 +587,19 @@
   <div class="row">
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="bottom-content">
-        <h1 id="contact" >Contact</h1>
-         <a href="https://www.facebook.com/arap.rajput"><i id="icon1" class="icon fab fa-facebook-square"></i></a>
+        <h1 id="contact">Contact</h1>
+        <a href="https://www.facebook.com/arap.rajput"><i id="icon1" class="icon fab fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/arunrajput822/"><i id="icon2" class="icon fab fa-instagram"></i></a>
         <a href="https://twitter.com/Arunkum04795019"><i id="icon3" class="icon fab fa-twitter"></i></a>
-        <p id="mail"><b>Email-
-          </b>Ar1445942@gmail.com</p>
+        
+          <p id="mail"><a href="mailto:Ar1445942@gmail.com">Ar1445942@gmail.com</a></p>
       </div>
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="bottom-copyright">
+  
         <p><i class="far fa-copyright"></i>Copyright 2020,COVID-19</p>
-        <p id="name" >Created and designed by- Arun Kumar Rajput</p>
+        <p id="name">Created and designed with ❤ Arun Kumar Rajput</p>
        <a href="#home"><button id="btn-up" type="button" class="btn btn-primary arrowbtn"><i class="fas fa-arrow-up"></i></button></a> 
       </div> 
     </div>
